@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "685566753435",
+    "firebase_url": "https://transportation-4f005-default-rtdb.firebaseio.com",
+    "project_id": "transportation-4f005",
+    "storage_bucket": "transportation-4f005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685566753435:android:bd1b88cd7717556fd1643e",
+        "android_client_info": {
+          "package_name": "com.example.transportation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685566753435-n1ihnrshov7p28c23iup1mmsh8i6v75k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.transportation",
+            "certificate_hash": "9359f91395e7a978ba93d2b5df40e3b014010962"
+          }
+        },
+        {
+          "client_id": "685566753435-d4rq89kcp2aqu31u34m0n9r8fd1jc21i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC80mjyykW2xXny-zoUKN40U0kRHa04wjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685566753435-d4rq89kcp2aqu31u34m0n9r8fd1jc21i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
