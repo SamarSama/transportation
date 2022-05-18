@@ -78,7 +78,8 @@ String userphone;
                         break;
                     case R.id.search:
 
-
+                        Intent intent1 = new Intent(getApplicationContext(), RoutesActivity2.class);
+                        startActivity(intent1);
                         break;
                     case R.id.sendpost:
                         fragment =new addpostFragment();

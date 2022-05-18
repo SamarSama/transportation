@@ -9,20 +9,22 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.transportation.Interface.ItemClickLister;
 import com.example.transportation.R;
 
-public class postviewholder extends RecyclerView.ViewHolder implements View.OnClickListener {
+public class Routeviewholder extends RecyclerView.ViewHolder implements View.OnClickListener {
     public ItemClickLister listner;
-    public  TextView username,postdet,date,phone;
+    public  TextView txtFrom,txtTo;
+    public  View myV;
 
-    public postviewholder(@NonNull View itemView) {
+    public Routeviewholder(@NonNull View itemView) {
         super(itemView);
-        username = (TextView) itemView.findViewById(R.id.txtFromtest);
-        postdet = (TextView) itemView.findViewById(R.id.post);
-        date = (TextView) itemView.findViewById(R.id.date);
-        phone = (TextView) itemView.findViewById(R.id.phone);
+        myV=itemView;
+        txtFrom = (TextView) itemView.findViewById(R.id.txt_f);
+        txtTo = (TextView) itemView.findViewById(R.id.txt_f2);
+
 
 
 
     }
+
     public void setItemClickListner(ItemClickLister listner) {
         this.listner = listner;
     }

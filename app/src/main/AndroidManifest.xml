@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Transportation">
         <activity
+            android:name=".RouteDetailsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".RoutesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EnterRoutesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
             android:name=".afterlogin"
             android:exported="false" />
         <activity
